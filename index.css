@@ -1,0 +1,115 @@
+.container{
+    background-image: linear-gradient(#dac0ff,#f3eaff,#f2ebfe,#ffffff);
+    padding: 40px;
+    margin:40px;
+}
+.para{
+    font-size: 20px;
+    color: #3e4c59;
+    font-weight: 500;
+}
+.inner{
+    color:#323f4b;
+    font-weight: 600;
+    font-size: 20px;
+    font-family:"Roboto";
+}
+.cpara{
+    margin-left: 10px;
+    color: #323f4b;
+    font-size: 30px;
+}
+.heading{
+    color: #690cb0;
+    font-weight: 900;
+    margin-bottom: 10;
+}
+.s-button{
+    background-color: #690cb0;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border-color: #690cb0;
+}
+.r-button{
+    background-color: #ffffff;
+    color: black;
+    border-radius: 5px;
+    margin-right: 10px;
+    border-color: #ffffff;
+}
+img{
+    height:40px;
+}
+.former{
+    border-color:#9aa5b1;
+    border-style: solid;
+    border-width: 1px;
+    margin: 10px;
+    padding: 20px;
+    text-align:left;
+    color:#3e4c59;
+    border-radius: 10px;
+}
+@media screen and (max-width:600px){
+    body{
+        margin:10px;
+    }
+    .container{
+        height:50vh;
+        width:100%;
+    }
+    .heading{
+        color: #690cb0;
+        font-weight: 700;
+        margin-bottom: 10;
+        font-size:40px;
+    }
+    .para{
+        font-size: 30px;
+        color: #3e4c59;
+        font-weight: 500;
+    }
+    .inner{
+        color:#323f4b;
+        font-weight: 500;
+        font-size: 20px;
+        font-family:"Roboto";
+    }
+    .cpara{
+        margin-left: 10px;
+        color: #323f4b;
+        font-size: 35px;
+    }
+    .s-button{
+        background-color: #690cb0;
+        color: #ffffff;
+        border-radius: 5px;
+        margin-right: 10px;
+        border-color: #690cb0;
+        height:7vh;
+        width:15vw;
+    }
+    .r-button{
+        background-color: #ffffff;
+        color: black;
+        border-radius: 5px;
+        margin-right: 10px;
+        border-color: #ffffff;
+        height:7vh;
+        width:15vw;
+    }
+    img{
+        height:60px;
+    }
+    .former{
+        border-color:#9aa5b1;
+        border-style: solid;
+        border-width: 2px;
+        margin: 10px;
+        padding: 10px;
+        text-align:left;
+        color:#3e4c59;
+        border-radius: 10px;
+    }
+}
